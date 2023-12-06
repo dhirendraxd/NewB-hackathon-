@@ -1,5 +1,13 @@
 body {
-    background: url(https://images.pexels.com/photos/2131661/pexels-photo-2131661.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load) no-repeat;
+    /* Additional 
+.company-logo {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;  
+    
+}
+
+    background: url() no-repeat;
     background-size: cover;
     color: blanchedalmond;
     font-family: 'Arial', sans-serif;
