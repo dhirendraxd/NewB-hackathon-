@@ -9,8 +9,11 @@ body{
     overflow: hidden;
     padding: 10px;
     margin: 5px;
-    background-color: black;
-    color: white;
+    border-color: rgb(28, 29, 30);
+    border: 12px;
+    border-radius: 30px;
+    background:transparent ;
+    color: rgba(35, 31, 31, 0.64);
     text-align: center;
 }
 .ul_content{
@@ -35,3 +38,4 @@ body{
     color: yellow;
     background-color: darkcyan;
 }
+.product
