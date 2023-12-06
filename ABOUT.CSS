@@ -2,20 +2,22 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url(/d05ca32bc42a7082309e6192cf74cee4.jpg);
+    background-image: url(/stock\ image\ for\ web.jpg) ;  
+    
 .container {
     max-width: 700px;
     margin: 20px ;
     padding: 20px;
     margin-left: auto;
     margin-right: auto;
-    background:transparent;
+    /* background:transparent; */
     color: rgb(34, 37, 41);
     text-shadow: 2%;
+    text-size-adjust: 22px;
     font-family: 'Times New Roman', Times, serif;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(29, 24, 24, 0.2).2);
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(40%);
 }
 
 article {
