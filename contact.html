@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Agro Hub</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+
+<div class="contact-section">
+    <h2>Contact Us</h2>
+
+    <form class="contact-form" action="/submit_contact_form.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="subject">Subject:</label>
+        <input type="text" id="subject" name="subject" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <button type="submit">Submit</button>
+    </form>
+    <div class="contact-info">
+        <h3>Contact Information</h3>
+        <p>Email: agro@Hub.com</p>
+        <p>Phone: +977 xxx xxx</p>
+        <p>Address: Nepal, Kathmandu</p>
+    </div>
+    <div class="business-hours">
+        <h3>Business Hours</h3>
+        <p>Monday to Friday: 9 AM -- 5 PM</p>
+    </div>
+    <div class="map">
+        <h3>Location</h3>
+   
+    </div>
+</div>
+
+</body>
+</html>
