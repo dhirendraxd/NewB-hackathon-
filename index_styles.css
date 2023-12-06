@@ -38,4 +38,11 @@ body{
     color: yellow;
     background-color: darkcyan;
 }
-.product
+.product{
+    
+}
+.product img {
+    width: 50px;/
+    height: auto; 
+
+}
