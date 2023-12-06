@@ -4,9 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="tranasaction.css">
-    <title>Document</title>
+    <title>Transaction Page</title>
+    <script src="transaction.js"></script>
 </head>
 <body>
-    
+
+<div class="container">
+    <h1>Checkout</h1>
+    <form id="checkoutForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="cardNumber">Card Number:</label>
+        <input type="text" id="cardNumber" name="cardNumber" required>
+
+        <label for="expirationDate">Expiration Date:</label>
+        <input type="text" id="expirationDate" name="expirationDate" placeholder="MM/YY" required>
+
+        <label for="cvv">CVV:</label>
+        <input type="text" id="cvv" name="cvv" required>
+
+        <button type="button" onclick="processTransaction()">Process Transaction</button>
+    </form>
+</div>
+
+<script src="script.js"></script>
 </body>
 </html>
