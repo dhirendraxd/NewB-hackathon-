@@ -1,0 +1,37 @@
+body{
+    color: red;
+    background-image: url(https://images.unsplash.com/photo-1563201515-adbe35c669c5?q=80&w=1474&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.heading1{
+    position:center;
+    overflow: hidden;
+    padding: 10px;
+    margin: 5px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.ul_content{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.navbar a {
+    float: left;
+    padding: 10px;
+    background-color: blueviolet;
+    font-size: medium;
+    text-decoration: none;
+    overflow: none;
+    text-align: center;
+}
+.navbar :hover{
+    background-color: gray;
+    color: #9a5b3d;
+}
+.navbar a.active{
+    color: yellow;
+    background-color: darkcyan;
+}
