@@ -36,9 +36,9 @@ body{
 }
 .navbar a.active{
     color: yellow;
-    background-color: darkcyan;
+    background-color: rgb(118, 139, 0);
 }
-.product{
+.product{vscode-file://vscode-app/c:/Users/Dell/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/code/electron-sandbox/workbench/workbench.html
     
 }
 .product img {
