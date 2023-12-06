@@ -1,0 +1,42 @@
+body {
+    background-color: red;
+    color: blanchedalmond;
+    font-family: '', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.container {
+    /* margin: 0 auto; CENTER CENTER THE container: ; */
+    border: radius 30PX;
+    ;
+    /* padding: 20px; ADD PADDING INSIDE THE container: ; */
+    background-color: white;
+}
+
+h1 {
+    color: #007BFF;
+
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+
+}
