@@ -1,6 +1,6 @@
 body{
     color: red;
-    background-image: url(/stock\ image\ for\ web.jpg);
+    background: url(https://cdn7.dissolve.com/p/D1061_111_251/D1061_111_251_1200.jpg);
     background-repeat: no-repeat;
     background-size:cover;
 }
@@ -20,19 +20,24 @@ body{
     list-style-type: none;
     padding: 0;
     margin: 0;
+    color: aliceblue;
+}
+Home About Us Farmers Market  Products Blog Content Login{
+    text-decoration: aliceblue;
 }
 .navbar a {
+    align-content: center;
     float: left;
     padding: 10px;
-    background-color: blueviolet;
+    background-color: rgba(91, 195, 78, 0), 0.533);
     font-size: medium;
     text-decoration: none;
     overflow: none;
     text-align: center;
 }
 .navbar :hover{
-    background-color: gray;
-    color: #9a5b3d;
+    background-color: rgb(46, 43, 43);
+    color: #cfc2bc;
 }
 .navbar a.active{
     color: yellow;
