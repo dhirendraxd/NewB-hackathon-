@@ -1,48 +1,45 @@
-body{
-    color: red;
-    background-image: url(/stock\ image\ for\ web.jpg);
-    background-repeat: no-repeat;
-    background-size:cover;
-}
-.heading1{
-    position:center;
-    overflow: hidden;
-    padding: 10px;
-    margin: 5px;
-    border-color: rgb(28, 29, 30);
-    border: 12px;
-    border-radius: 30px;
-    background:transparent ;
-    color: rgba(35, 31, 31, 0.64);
-    text-align: center;
-}
-.ul_content{
-    list-style-type: none;
-    padding: 0;
+body {
     margin: 0;
-}
-.navbar a {
-    float: left;
-    padding: 10px;
-    background-color: blueviolet;
-    font-size: medium;
-    text-decoration: none;
-    overflow: none;
-    text-align: center;
-}
-.navbar :hover{
-    background-color: gray;
-    color: #9a5b3d;
-}
-.navbar a.active{
-    color: yellow;
-    background-color: darkcyan;
-}
-.product{
+    padding: 0;
+    background: url(https://images.pexels.com/photos/5141727/pexels-photo-5141727.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)   repeat-x;
+    body {
+padding: 0%;
+margin: 0%;
+    }
     
-}
-.product img {
-    width: 50px;/
-    height: auto; 
-
-}
+    .navbar {
+        background-color: #4CAF50;
+        padding: 10px;
+        text-align: center;
+    }
+    
+    .ul_content {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: flex-end; 
+    }
+    
+    .ul_content li {
+        margin-right: 20px;
+    }
+    
+    .ul_content li a {
+        text-decoration: none;
+        color: white;
+        font-size: 16px;
+    }
+    
+    .ul_content li a:hover {
+        color: #f0f8ef;
+    }
+    
+    .ul_content li.login {
+        margin-left: auto; 
+    }
+    
+    .ul_content li.login a {
+        font-weight: bold; 
+    }
+    
