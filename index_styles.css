@@ -1,3 +1,12 @@
+*{
+    font-family: 'Nunito', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-decoration: none;
+    transition: all .2s linear;
+    text-transform: capitalize;
+    }
 body{
     
     background: url(https://img.freepik.com/free-vector/abstract-geometric-green-background_23-2148373602.jpg?w=900&t=st=1701917877~exp=1701918477~hmac=52b09154f6ea47c10e9f64923641db336ec8010350f2d34cf3c7a3a6af451ce0);
@@ -60,17 +69,8 @@ align-items: end;
     height: auto; 
 
 }
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600&display=swap');
 
-*{
-   font-family: 'Nunito', sans-serif;
-   margin:0; padding:0;
-   box-sizing: border-box;
-   outline: none; border:none;
-   text-decoration: none;
-   transition: all .2s linear;
-   text-transform: capitalize;
-}
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
 html{
    font-size: 62.5%;
