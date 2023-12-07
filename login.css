@@ -9,7 +9,7 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background:url(stock\ image\ for\ web.jpg) no-repeat;
+    background:url(https://img.freepik.com/free-vector/gradient-emerald-background_23-2150291018.jpg?w=900&t=st=1701918012~exp=1701918612~hmac=915cdaa96ad4d84c6891119a0f2375344e893d83030ff70df6494005c359b8ea) no-repeat;
     background-size:cover
     ;
     background-position: center;
@@ -93,11 +93,14 @@ body{
 }
 
 .register-link p a {
-    color: #f2f2f2;
+    color: #f2f2f2e9;
     text-decoration: none;
     font-weight: 600;
 
 }
 .register-link p a:hover{
     text-decoration: underline;
+}
+.remember-foget{
+justify-content: center;
 }

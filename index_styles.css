@@ -1,6 +1,6 @@
 body{
-    color: red;
-    background: url(https://cdn7.dissolve.com/p/D1061_111_251/D1061_111_251_1200.jpg);
+    
+    background: url(https://img.freepik.com/free-vector/abstract-geometric-green-background_23-2148373602.jpg?w=900&t=st=1701917877~exp=1701918477~hmac=52b09154f6ea47c10e9f64923641db336ec8010350f2d34cf3c7a3a6af451ce0);
     background-repeat: no-repeat;
     background-size:cover;
 }
@@ -23,13 +23,15 @@ body{
     color: aliceblue;  
 }
 .logo{
-color:rgb(188, 209, 208);
-justify-content: center;
-;
-text-size-adjust: 20px;
-text-align: center;
-text-decoration: double;
-text-align: justify;
+    height: 1px;;
+    width: 300px;
+    padding: 16px;
+
+ background-color: rgba(88, 118, 118, 0.606);
+ backdrop-filter: blur 30px;
+ 
+align-items: end;
+    justify-content: center;
 }
 
 .navbar a {
@@ -48,7 +50,7 @@ text-align: justify;
 }
 .navbar a.active{
     color: yellow;
-    background-color: darkcyan;
+    background-color: rgba(88, 118, 118, 0.606);
 }
 .product{
     
