@@ -12,214 +12,37 @@
 
 <body>
     <nav class="navbar">
-        <ul class="ul_content">
-            <li><a class="active" href="index.html" target="_blank" style="color: aliceblue;">Home</a></li>
-            <li><a href="about.html" target="_blank" style="color: white;">About Us</a></li>
-            <li><a href="transaction.html" target="_blank" style="color: aliceblue;">Transaction</a></li>
-            <li><a href="contact.html" target="_blank" style="color: aliceblue;">Contact Us</a></li>
-            <li><a href="/loginpage.html" style="color: aliceblue;">Login</a></li>
+        <div class="logo">
+            <h2>The Agro Hub</h2>
+        </div>
+        <ul class="nav-links">
+            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="transaction.html">Transaction</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="/loginpage.html">Login</a></li>
         </ul>
-
     </nav>
-    <h2 class="logo"> </h2>
-
 
     <div class="container">
-
-        <h3 class="title"> Our Products </h3>
+        <h3 class="title">Our Products</h3>
 
         <div class="products-container">
-
+            <!-- Repeat this block for each product -->
             <div class="product" data-name="p-1">
-                <img src="/carrot.webp" alt="">
+                <img src="/carrot.webp" alt="Carrot">
                 <h3>Carrot</h3>
                 <div class="price">₹500</div>
+                <div class="overlay">
+                    <img src="/tickmark.jpg" alt="Tick Mark">
+                    <a href="#" class="add-to-cart">Add to Cart</a>
+                    <a href="#" class="buy-now">Buy Now</a>
+                </div>
             </div>
-
-            <div class="product" data-name="p-2">
-                <img src="/brocolli.jpg" alt="">
-                <h3>Broccoli</h3>
-                <div class="price">₹500</div>
-            </div>
-
-            <div class="product" data-name="p-3">
-                <img src="/spinach.jpg" alt="">
-                <h3>Spinach</h3>
-                <div class="price"> ₹500</div>
-            </div>
+            <!-- Repeat the block above for other products -->
         </div>
-<!-- this is remaning to do  -->
-
-        <div class="product" data-name="p-4">
-            <img src="/tomatos.jpg" alt="">
-            <h3>Tomatoes</h3>
-            <div class="price">₹500</div>
-        </div>
-
-        <div class="product" data-name="p-5">
-            <img src="/cabbage.piic.webp" alt="">
-            <h3>Cabbage </h3>
-            <div class="price">₹500</div>
-        </div>
-
-        <div class="product" data-name="p-6">
-            <img src="/cucm.jpg"
-                alt="">
-            <h3>Cucumber</h3>
-            <div class="price">₹500</div>
-        </div>
-
     </div>
-
-    </div>
-
-    <div class="products-preview">
-
-        <div class="preview" data-target="p-1">
-            <i class="fas fa-times"></i>
-            <img src="/carrot.webp" alt="">
-            <h3>Carrot</h3>
-            <div class="stars">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star-half-alt"></i>
-                <span>( 250 )</span>
-            </div>
-            <p>Carrots are root vegetables that come in various colors, with orange being the most common. Renowned for
-                their natural sweetness, carrots are not only a flavorful addition to meals but also a nutritional
-                powerhouse. They are particularly rich in beta-carotene, an antioxidant that the body converts into
-                vitamin A.</p>
-            <div class="price">₹500</div>
-            <div class="buttons">
-                <a href="#" class="buy">buy now</a>
-                <a href="#" class="cart">add to cart</a>
-            </div>
-        </div>
-
-        <div class="preview" data-target="p-2">
-            <i class="fas fa-times"></i>
-            <img src="images/2.png" alt="">
-            <h3>organic onions</h3>
-            <div class="stars">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star-half-alt"></i>
-                <span>( 250 )</span>
-            </div>
-            <p>Organic onions are naturally grown without synthetic pesticides or fertilizers. They offer a distinct
-                flavor to culinary dishes and are considered a healthier choice due to their pesticide-free cultivation.
-            </p>
-            <div class="price">₹500</div>
-            <div class="buttons">
-                <a href="#" class="buy">buy now</a>
-                <a href="#" class="cart">add to cart</a>
-            </div>
-        </div>
-
-        <div class="preview" data-target="p-3">
-            <i class="fas fa-times"></i>
-            <img src="images/3.png" alt="">
-            <h3>organic tomatoes</h3>
-            <div class="stars">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star-half-alt"></i>
-                <span>( 250 )</span>
-            </div>
-            <p>Organic tomatoes are cultivated without synthetic pesticides or fertilizers. They are grown using organic
-                farming practices, emphasizing natural methods to enhance soil health and prevent environmental harm.
-                Organic tomatoes maintain a fresh and robust flavor while providing a choice that aligns with
-                environmentally  sustainable agriculture.</p>
-            <div class="price">₹500</div>
-            <div class="buttons">
-                <a href="#" class="buy">buy now</a>
-                <a href="#" class="cart">add to cart</a>
-            </div>
-        </div>
-
-        <div class="preview" data-target="p-4">
-            <i class="fas fa-times"></i>
-            <img src="images/4.png" alt="">
-            <h3>organic brinjal</h3>
-            <div class="stars">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star-half-alt"></i>
-                <span>( 250 )</span>
-            </div>
-            <p>oganic brinjal are cultivated abd are grown using organic farming practices, natural method</p>
-            <div class="price">₹500</div>
-            <div class="buttons">
-                <a href="#" class="buy">buy now</a>
-                <a href="#" class="cart">add to cart</a>
-            </div>
-        </div>
-
-        <div class="preview" data-target="p-5">
-            <i class="fas fa-times"></i>
-            <img src="images/5.png" alt="">
-            <h3>organic broccoli</h3>
-            <div class="stars">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star-half-alt"></i>
-                <span>( 250 )</span>
-            </div>
-            <p>discription</p>
-            <div class="price">₹500</div>
-            <div class="buttons">
-                <a href="#" class="buy">buy now</a>
-                <a href="#" class="cart">add to cart</a>
-            </div>
-        </div>
-
-        <div class="preview" data-target="p-6">
-            <i class="fas fa-times"></i>
-            <img src="images/6.png" alt="">
-            <h3>organic potatoes</h3>
-            <div class="stars">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star-half-alt"></i>
-                <span>( 250 )</span>
-            </div>
-            <p>discriptiion</p>
-            <div class="price">₹500</div>
-            <div class="buttons">
-                <a href="#" class="buy">buy now</a>
-                <a href="#" class="cart">add to cart</a>
-            </div>
-        </div>
-
-    </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 </body>
 
 </html>
-<!-- Home About Us Farmers Market  Products Blog Content L 
