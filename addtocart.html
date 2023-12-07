@@ -3,32 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Add to Cart Form</title>
     <link rel="stylesheet" href="addtocart.css">
+    <title>Add Products</title>
 </head>
 <body>
+    <div class="container">
+        <h2>Add Products :</h2>
+        <div id="productList">
+        </div>
+        <div>
+            <label for="productImage">Upload Image (Max size: 1MB):</label>
+            <input type="file" id="productImage" accept="image/*" onchange="validateImage()">
+            
+            <label for="productQuantity">Quantity:</label>
+            <input type="number" id="productQuantity" placeholder="Enter quantity">
+            
+            <label for="productType">Product Type:</label>
+            <select id="productType">
+                <option value="vegies">VEGETABLES</option>
+                <option value="fruits">FRUITS</option>
+                <option value="dairy">DAIRY</option>
+            </select>
+            
+            <button onclick="addProduct()">Add Product</button>
+        </div>
+    </div>
 
-<div class="form-container">
-    <form id="dataForm">
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required>
-
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required>
-
-        <label for="quantity">Quantity:</label>
-        <input type="number" id="quantity" name="quantity" required>
-
-        <button type="button" onclick="addToCart()">Add to Cart</button>
-    </form>
-</div>
-
-<div class="cart-container">
-    <h2>Shopping Cart</h2>
-    <ul id="cartItems"></ul>
-</div>
-
-<script src="script.js"></script>
-
+    <script src="script.js"></script>
 </body>
 </html>
