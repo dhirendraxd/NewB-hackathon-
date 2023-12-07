@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Data Collection Form</title>
-    <link rel="stylesheet" href="buynow.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
@@ -16,15 +16,18 @@
         <label for="email">Email:</label>
         <input type="email" id="email" name="email" required>
 
+        <label for="quantity">Quantity:</label>
+        <input type="number" id="quantity" name="quantity" required>
+
         <button type="button" onclick="submitForm()">Submit</button>
     </form>
 </div>
 
 <div id="successPopup" class="popup">
- Request Submitted  successfully!
+    Request sent  successfully!
 </div>
 
-<script src="buynow.js"></script>
+<script src="script.js"></script>
 
 </body>
 </html>
