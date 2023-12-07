@@ -11,22 +11,23 @@
 <div class="form-container">
     <form id="dataForm">
         <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required>
+        <input type="text" id="name" name="name" required placeholder="username">
 
         <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required>
+        <input type="email" id="email" name="email" required  placeholder="xxxxx@xxx.">
 
         <label for="product">Product:</label>
         <select id="product" name="product" required>
-            <option value="vegetables">None </option>
-            <option value="fruits"></option>
-            <option value="dairy">Dairy</option>
+            <option value="vegetables"></option>
+            <option value="fruits">VEGETABLES</option>
+            <option value="dairy">DAIRY</option>
+            <OPTIOn value="VEG">FRUITS</OPTIOn>
             <!-- Add more options as needed -->
         </select>
         
 
         <label for="quantity">Quantity:</label>
-        <input type="number" id="quantity" name="quantity" required>
+        <input type="number" id="quantity" name="quantity" required placeholder="KG/Ltr">
 
         <button type="button" onclick="submitForm()">Submit</button>
     </form>
