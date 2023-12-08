@@ -1,345 +1,105 @@
-/* Combined CSS for Navigation Bar and Product Section */
-
-* {
-    font-family: 'Nunito', sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    outline: none;
-    border: none;
-    text-decoration: none;
-    transition: all .2s linear;
-    text-transform: capitalize;
-}
-
-body {
-    font-family: 'Nunito', sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    outline: none;
-    border: none;
-    text-decoration: none;
-    transition: all .2s linear;
-    text-transform: capitalize;
-    background: url(https://img.freepik.com/free-vector/abstract-geometric-green-background_23-2148373602.jpg?w=900&t=st=1701917877~exp=1701918477~hmac=52b09154f6ea47c10e9f64923641db336ec8010350f2d34cf3c7a3a6af451ce0);
+body{
+    color: red;
+    background: url(https://cdn7.dissolve.com/p/D1061_111_251/D1061_111_251_1200.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:cover;
 }
-
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-    background-color: rgba(0, 0, 0, 0.7);
-    color: rgb(255, 255, 255);
-}
-
-.logo {
-    font-size: 24px;
-    font-weight: bold;
-    color: #fff;
-}
-
-.nav-links {
-    list-style-type: none;
-    display: flex;
-    gap: 20px;
-}
-
-.nav-links a {
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-    font-size: 16px;
-    padding: 10px;
-}
-
-.nav-links a:hover {
-    border-bottom: 2px solid white;
-}
-
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 3rem 2rem;
-    background: rgba(255, 255, 255, 0.8);
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.container .products-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 20px;
-}
-
-.container .products-container .product {
-    text-align: center;
-    padding: 20px;
-    background: #fff;
-    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
-    outline: .1rem solid #ccc;
-    outline-offset: -1.5rem;
-    cursor: pointer;
-    position: relative;
-}
-
-.container .products-container .product:hover {
-    outline: .2rem solid #222;
-    outline-offset: 0;
-}
-
-.container .products-container .product img {
-    height: 150px;
-    width: auto;
-}
-
-.container .products-container .product:hover img {
-    transform: scale(.9);
-}
-
-.container .products-container .product h3 {
-    padding: .5rem 0;
-    font-size: 1.5rem;
-    color: #444;
-}
-
-.container .products-container .product:hover h3 {
-    color: #27ae60;
-}
-
-.container .products-container .product .price {
-    font-size: 1.5rem;
-    color: #444;
-}
-
-.container .products-container .product:hover .overlay {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.container .products-container .product .overlay {
-    display: none;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.7);
-    color: rgb(255, 241, 241);
-}
-
-.container .products-container .product .overlay img {
-    width: 20px;
-    height: 20px;
-    margin-right: 5px;
-}
-
-.container .products-container .product .overlay a {
-    display: inline-block;
+.heading1{
+    position:center;
+    overflow: hidden;
     padding: 10px;
     margin: 5px;
-    border: 1px solid white;
+    border-color: rgb(28, 29, 30);
+    border: 12px;
+    border-radius: 30px;
+    background:transparent ;
+    color: rgba(35, 31, 31, 0.64);
+    text-align: center;
+}
+.ul_content{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    color: aliceblue;  
+}
+.logo{
+color:rgb(188, 209, 208);
+justify-content: center;
+;
+text-size-adjust: 20px;
+text-align: center;
+text-decoration: double;
+text-align: justify;
+}
+
+.navbar a {
+    align-content: center;
+    float: left;
+    padding: 10px;
+    background-color: rgba(91, 195, 78, 0), 0.533);
+    font-size: medium;
     text-decoration: none;
-    color: white;
-    border-radius: 5px;
+    overflow: none;
+    text-align: center;
 }
+.navbar :hover{
+    background-color: rgb(46, 43, 43);
+    color: #cfc2bc;
+}
+.navbar a.active{
+    color: yellow;
+    background-color: darkcyan;
+}
+.product{
+    
+}
+.product img {
+    width: 50px;/
+    height: auto; 
 
-.container .products-container .product .overlay a:hover {
-    background-color: white;
-    color: black;
 }
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    padding: 50px 0;
-}
-
-.verification-box {
-    background-color: #fff;
+/* Basic styling to create a grid gallery */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
     padding: 20px;
+  }
+  
+  .image {
+    position: relative;
+    overflow: hidden;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    body {
-        font-family: Arial, sans-serif;
-        background-color: #f4f4f4;
-        text-align: center;
-        padding: 50px;
-    }
-    
-    .verification-box {
-        max-width: 400px;
-        margin: auto;
-        background-color: #fff;
-        padding: 20px;
-        border-radius: 8px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    }
-    
-    .input-group {
-        margin-bottom: 15px;
-        text-align: left;
-    }
-    
-    label {
-        display: block;
-        margin-bottom: 5px;
-    }
-    
-    input {
-        width: 100%;
-        padding: 10px;
-        box-sizing: border-box;
-        margin-bottom: 10px;
-    }
-    
-    button {
-        background-color: #4caf50;
-        color: white;
-        padding: 10px 20px;
-        border: none;
-        border-radius: 4px;
-        cursor: pointer;
-    }
-    
-    button:hover {
-        background-color: #45a049;
-    }
-    
-}
-/* Reset some default styles for better consistency */
-body, h1, h2, p, table, th, td {
-    margin: 0;
-    padding: 0;
-}
-
-/* Apply some basic styling */
-body {
-    font-family: 'Arial', sans-serif;
-    line-height: 1.6;
-}
-
-header {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 1em;
-}
-
-main {
-    max-width: 800px;
-    margin: 20px auto;
-    padding: 20px;
-}
-
-table {
+  }
+  
+  img {
     width: 100%;
-    border-collapse: collapse;
-    margin-top: 20px;
-}
-
-th, td {
-    border: 1px solid #ddd;
-    padding: 8px;
-    text-align: left;
-}
-
-th {
-    background-color: #333;
-    color: #fff;
-}
-
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 1em;
-    position: fixed;
+    height: auto;
+    transition: transform 0.3s ease;
+  }
+  
+  .caption {
+    position: absolute;
     bottom: 0;
+    left: 0;
     width: 100%;
-}
-
-/* New styles to move the table to the right */
-@media (min-width: 600px) {
-    main {
-        float: right;
-    }
-/* }
-body {
-    font-family: 'Arial', sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0; */
-}
-
-/* header {
-    background-color: #333;
-    color: #fff;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 8px;
     text-align: center;
-    padding: 1em;
-} */
-
-/* nav {
-    background-color: #555;
-    color: #fff;
-    padding: 10px;
-    text-align: center;
-    .table-container {
-        float: right; 
-    } */
-    
-    body {
-        font-family: Arial, sans-serif;
-        margin: 0;
-        padding: 0;
-        background-color: #f0f0f0;
-      }
-      
-      .verification-form-container {
-        max-width: 400px;
-        margin: 50px auto;
-        padding: 20px;
-        background-color: #fff;
-        border-radius: 8px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-      }
-      
-      h1 {
-        text-align: center;
-        color: #333;
-      }
-      
-      form {
-        display: flex;
-        flex-direction: column;
-      }
-      
-      label {
-        margin-top: 10px;
-        color: #333;
-      }
-      
-      input {
-        padding: 8px;
-        margin-top: 5px;
-        margin-bottom: 15px;
-        border: 1px solid #ccc;
-        border-radius: 4px;
-      }
-      
-      button {
-        background-color: #333;
-        color: #fff;
-        padding: 10px;
-        border: none;
-        border-radius: 4px;
-        cursor: pointer;
-      }
-      
-      button:hover {
-        background-color: #555;
-      }
-      
-      
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .image:hover img {
+    transform: scale(1.1);
+  }
+  
+  .image:hover .caption {
+    opacity: 1;
+  }
+  #f3{
+    box-sizing: auto;
+  }
+  
