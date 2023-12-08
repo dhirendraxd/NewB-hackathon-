@@ -205,7 +205,7 @@ body {
     }
     
 }
-/* Reset some default styles for better consistency */
+
 body, h1, h2, p, table, th, td {
     margin: 0;
     padding: 0;
@@ -323,4 +323,4 @@ body {
       button:hover {
         background-color: #555;
       }
-      
+       */
