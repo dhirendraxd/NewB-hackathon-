@@ -1,124 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Agro Hub</title>
     <link rel="stylesheet" href="index_styles.css">
-    <link rel="shortcut icon" href="/favicon-16x16.png" type="image/x-icon">
-    <script src="webpage.js"></script>
 </head>
-
-
 <body>
-
-    </table>
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-md-6">
-
-            </div>
-            <ul class="nav-links">
-                <li><a class="active" href="index.html">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="transaction.html">Transaction</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
-                <li><a href="/loginpage.html">Login</a></li>
-            </ul>
-            </nav>
-
-            <div class="container">
-                <h3 class="title">Our Products</h3>
-
-                <div class="products-container">
-
-                    <div class="product" data-name="p-1">
-                        <img src="/carrot.jpg" alt="Carrot">
-                        <h3>Carrot</h3>
-                        <div class="price">₹299</div>
-                        <div class="overlay">
-                            <img src="tick.png" alt="Tick Mark">
-                            <a href="addtocart.html" class="add-to-cart">ADD PRODUCTS</a>
-                            <a href="buynow.html" class="buy-now">Buy Now</a>
-                        </div>
-                    </div>
-                    <div class="product" data-name="p-2">
-                        <img src="brocoli.jpg" alt="Broccoli">
-                        <h3>Broccoli</h3>
-                        <div class="price">₹69.99</div>
-                        <div class="overlay">
-                            <img src="/cross mark.png" alt="Cross  Mark">
-                            <a href="addtocart.html" class="add-to-cart">ADD PRODUCTS </a>
-                            <a href="buynow.html" class="buy-now">Buy Now</a>
-                        </div>
-                    </div>
-                    <div class="product" data-name="p-3">
-                        <img src="/spinachhhhhh.jpg" alt="Spinach">
-                        <h3>Spinach</h3>
-                        <div class="price">₹199</div>
-                        <div class="overlay">
-                            <img src="tick.png" alt="Tick Mark">
-                            <a href="addtocart.html" class="add-to-cart">ADD PRODUCTS</a>
-                            <a href="buynow.html" class="buy-now">Buy Now</a>
-                        </div>
-                    </div>
-                    <div class="product" data-name="p-4">
-                        <img src="/tomatos.jpg" alt="Tomatoes">
-                        <h3>Tomatoes</h3>
-                        <div class="price">₹199</div>
-                        <div class="overlay">
-                            <img src="/cross mark.png" alt="Tick Mark">
-                            <a href="addtocart.html" class="add-to-cart">ADD PRODUCTS</a>
-                            <a href="buynow.html" class="buy-now">Buy Now</a>
-                        </div>
-                    </div>
-
-                    <div class="product" data-name="p-5">
-                        <img src="/cabbage.jpg" alt="Cabbage">
-                        <h3>Cabbage</h3>
-                        <div class="price">₹199</div>
-                        <div class="overlay">
-                            <img src="/tick.png" alt="Tick Mark">
-                            <a href="addtocart.html" class="add-to-cart">ADD PRODUCTS</a>
-                            <a href="buynow.html" class="buy-now">Buy Now</a>
-                        </div>
-                    </div>
-
-                    <div class="product" data-name="p-6">
-                        <img src="/cucumber.jpg" alt="Cucumber">
-                        <h3>Cucumber</h3>
-                        <div class="price">₹39.99</div>
-                        <div class="overlay">
-                            <img src="/tick.png" alt="Tick Mark">
-                            <a href="addtocart.html" class="add-to-cart">ADD PRODUCTS</a>
-                            <a href="buynow.html" class="buy-now">Buy Now</a>
-                        </div>
-                    </div>
-
-
-                </div>
-                <div class="verification-form-container">
-                    <h1>Verification Form</h1>
-                    <form action="submit_verification.php" method="post">
-                        <label for="contactNumber">name:</label>
-                        <input type="tel"  placeholder=" eg:dhirendra singh dhami" name="name" required  
-                        ><label for="contactNumber">Contact Number:</label>
-                        <input type="tel" placeholder="eg:9765914850" id="contactNumber" name="contactNumber" required>
-
-                        <label for="email">Email:</label>
-                        <input type="email" placeholder=" eg:keshavbist092@gmail.com" id="email" name="email" required>
-
-                        <label for="idNumber" >ID Number:</label>
-                        <input type="text" placeholder ="eg:12345"  idNumber name="idNumber" required>
-
-                        <button type="submit">Submit</button>
-                        
-                    </form>
-                </div>
-
-
-
+    <nav class="navbar">
+        <ul class="ul_content">
+            <li><a class="active" href="index.html" target="_blank" style="color: aliceblue;">Home</a></li>
+            <li><a href="about.html" target="_blank" style="color: white;">About Us</a></li>
+            <li><a href="market.html" target="_blank" style="color: aliceblue;">Farmers Market</a></li>
+            <li><a href="products.html" target="_blank" style="color: aliceblue;">Products</a></li>
+            <li><a href="transaction.html" target="_blank" style="color: aliceblue;">Transaction</a></li>
+            <li><a href="contact.html" target="_blank" style="color: aliceblue;">Contact Us</a></li>
+            <li><a href="/loginpage.html" style="color: aliceblue;">Login</a></li>
+        </ul>
+       
+    </nav>
+    <h2  class="logo">The Agro Hub</h2>
+    
+    <div class="gallery">
+        <div class="image">
+          <img src="f1.jpg" alt="Farmer 1">
+          <div class="caption"></div>
+        </div>
+        <div class="image">
+          <img src ="f2.jpg" alt="Farmer 2">
+          <div class="caption"></div>
+        </div>
+        <div class="image" id="f3">
+          <img src="f33.jpg" alt="Farmer 3">
+          <div class="caption"></div>
+        </div>
+        <!-- Add more images as needed -->
+      </div>
+     
 </body>
-
 </html>
+<!-- Home About Us Farmers Market  Products Blog Content L 
