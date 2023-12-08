@@ -56,3 +56,39 @@ button:hover {
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: rgba(255, 255, 255, 0.7);
+    color: rgba(134, 32, 32, 0.952);
+}
+
+.nav-container {
+    background-color: #8fac90; 
+    padding: 10px 20px; 
+    text-align: center; 
+}
+
+.nav-links li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.nav-links a {
+    color: #0b0a0a; 
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.nav-links a.active {
+    background-color: #3E8E41; 
+}
+
+.nav-links a:hover {
+    background-color: #45a049; 
+}
