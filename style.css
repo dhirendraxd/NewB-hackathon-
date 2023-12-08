@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(189, 221, 249);
+}
+
+.dashboard-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(253, 245, 245, 0.702);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+.metrics, .profile-snapshot-container, .leaderboard, .recent-contributions {
+    margin-bottom: 20px;
+}
+
+.metrics p {
+    margin: 0;
+}
+
+.profile-snapshot-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile-snapshot {
+    text-align: center;
+    width: 48%;
+    padding: 15px;
+    background-color: #ffffffc3;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.profile-snapshot img {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
+
+.leaderboard {
+    width: 90%; 
+}
+
+.leaderboard ol {
+    list-style: decimal;
+    padding-left: 30px;
+}
+
+.recent-contributions, .leaderboard {
+    padding: 15px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.recent-contributions ul, .leaderboard ol {
+    padding: 0;
+}
+
+.recent-contributions li, .leaderboard li {
+    margin-bottom: 10px;
+}
